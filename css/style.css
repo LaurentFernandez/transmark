@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+body{
+    background: #1a1a11;
+}
+
+section{
+    width: 90%;
+    max-width: 1500px;
+    height: 630px;
+    border: 1px solid #fff;
+    margin: 0 auto;
+
+}
+
+#fila{
+    width: 110%;
+    display: flex 
+}
+
+#foto{
+    width: 35%;
+}
+
+#info{
+    width: 65%;
+}
+
+#info h2{
+    color:#00f29e;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Fugaz One', cursive;
+    margin-bottom: 0px;
+
+    
+}
+
+#info h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Fugaz One', cursive;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+
+
+}
+#info #detalle{
+    width: 120px;
+    height: 4px;
+    background: #00f29e;
+    margin-bottom: 40px;
+
+
+}
+
+#info p{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    text-align: justify;
+    padding-right: 200px;
+
+
+}
+
+#info article{
+    border: 2px solid #00f29e;
+    width: 75%;
+    
+
+}
+article ul li{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    list-style: none;
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 12px;
+
+    
+}
+#info #redes {
+    margin-top: 40px;
+}
+#info #redes a{
+    margin: 0 10px;
+}
